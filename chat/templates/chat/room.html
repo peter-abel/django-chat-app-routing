@@ -64,7 +64,7 @@
             {{ room_name|json_script:"room-name" }}
             {{ user.username|default:"AnonymousUser"|json_script:"user"}}
         </div>
-        <center style="width:100%;">
+        <center style="width:100%;" >
             <p style="font-size:12px;">Tired of this room? <a href="{% url 'home' %}">Leave room</a></p>
 
         </center>
